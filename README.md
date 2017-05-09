@@ -4,7 +4,7 @@ Clockwork - a Front-End Exercise
 This is an exercise for aspiring front-end developers
 to apply understandings of HTML5, CSS3, Javascript, and jQuery
 for a practical purpose - layering information 
-(hour, minute, second).
+(hours, minutes, seconds).
 
 [About Glitch](https://glitch.com/about)
 
