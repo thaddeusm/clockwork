@@ -6,8 +6,6 @@ to apply understandings of HTML5, CSS3, Javascript, and jQuery
 for a practical purpose - layering information 
 (hours, minutes, seconds).
 
-[About Glitch](https://glitch.com/about)
-
 
 Inspiration
 ------------
@@ -22,6 +20,6 @@ The segment explains how this is a common challenge for elderly
 people suffering from dementia or Alzheimer's because it involves
 simultaneously processing three layers of information.
 
-This exercise has given me a better appreciation of clocks and 
-I hope it will inspire others to develop their own alternative
+This exercise has given me a better appreciation of telling time 
+and I hope it will inspire others to develop their own alternative
 clocks.
