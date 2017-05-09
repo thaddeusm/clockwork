@@ -1,0 +1,65 @@
+/*
+
+Pretty basic stuff here, but the rgba color values
+as opposed to HEX values helps to see the layers of
+information clearer.
+
+Also, flexbox helped arrange the position of the
+time text.
+
+See: https://internetingishard.com/html-and-css/flexbox/
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Righteous', cursive;
+}
+
+#hour {
+  background: rgba(20, 57, 90, 1);
+  height: 100vh;
+  width: 0;
+}
+
+#minutes {
+  background: rgba(89, 192, 166, .7);
+  width: 100vw;
+  height: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#seconds {
+  background: rgba(234, 65, 52, .7);
+  width: 100vw;
+  height: 1.67vh;
+  display: inline-block;
+}
+
+#timeContainer {
+  position: fixed;
+  margin-top: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4em;
+  color: #B0BEC5;
+  text-shadow: 2px 3px #143950;
+}
+
+h3 {
+  font-size: 2em;
+  color: rgba(234, 65, 52, .7);
+  text-shadow: 2px 3px #143950;
+}
